@@ -56,7 +56,7 @@ class Queue extends Command {
 			.formatField("Queue", (track) => `${++i}. [${track.title}](${track.url})\n*Requested by ${track.requestedBy}*\n`);
  
 		FieldsEmbed.build();
-        
+       
 	}
 
 }

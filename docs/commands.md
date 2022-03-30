@@ -7,7 +7,7 @@ Here's the list of Atlanta commands. This one contains more than **120 commands*
 **Usage**: The arguments/options that the command takes in parameters  
 **Cooldown**: The time that must elapse between each command so that it can be executed again by the user
 
-### Images (28 commands)
+### Images (27 commands)
 
 | Name                | Description                                             | Usage                               | Cooldown  |
 | ------------------- | ------------------------------------------------------- | ----------------------------------- | --------- |
@@ -16,16 +16,15 @@ Here's the list of Atlanta commands. This one contains more than **120 commands*
 | **batslap**         | Generates a "batslap" image                             | batslap (@member1) (@member2)       | 5 seconds |
 | **beautiful**       | Generates a "beautiful" image                           | beautiful (@member)                 | 5 seconds |
 | **bed**             | Generates a "love" image using the Nekobot API          | love [@member1] (@member2)          | 5 seconds |
-| **brazzers**        | Generates a "brazzers" image                            | brazzers (@member)                  | 5 seconds |
-| **burn**            | Generates a "burn" image                                | burn (@member)                      | 5 seconds |
+| **brazzers**        | Generates a "dictator" image                            | dictator (@member)                  | 5 seconds |
+| **burn**            | Generates a "brazzers" image                            | brazzers (@member)                  | 5 seconds |
 | **captcha**         | Generates a "captcha" image using the Nekobot API       | captcha (@member)                   | 5 seconds |
 | **challenger**      | Generates a "challenger" image                          | challenger (@member)                | 5 seconds |
 | **clyde**           | Generates a "Clyde" message image using the Nekobot API | clyde [text]                        | 5 seconds |
-| **dictator**        | Generates a "dictator" image                            | dictator (@member)                  | 5 seconds |
+| **dictator**        | Generates a "burn" image                                | burn (@member)                      | 5 seconds |
 | **facepalm**        | Generates a "facepalm" image using canvas               | facepalm (@member)                  | 5 seconds |
 | **fire**            | Generates a "fire" image using Amethyste API            | fire (@member)                      | 5 seconds |
 | **jail**            | Generates a "jail" image using Amethyste API            | jail (@member)                      | 5 seconds |
-| **kiss**            | DESCRIPTION                                             | USAGE                               | 5 seconds |
 | **love**            | Generates a "bed" image                                 | bed [@member1] (@member2)           | 5 seconds |
 | **mission**         | Generates a "mission" image using Amethyste API         | mission (@member)                   | 5 seconds |
 | **phcomment**       | Generates a "phcomment" image                           | phcomment (@member) [text]          | 5 seconds |
