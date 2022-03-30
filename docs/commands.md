@@ -82,12 +82,12 @@ Here's the list of Atlanta commands. This one contains more than **120 commands*
 | **ignore**          | Toggle commands in a channel                    | ignore [channel]                 | 3 seconds  |
 | **setfortniteshop** | Set the daily Fortnite shop channel!            | setfortniteshop (#channel)       | 5 seconds  |
 | **setlang**         | Change the server language!                     | setlang [language]               | 3 seconds  |
-| **setmodlogs**      | Set the moderation logs channel!                | setmodlogs (#channel)            | 3 seconds  |
+| **setmodlogs**      | Set the moderation logs channel!                | setmodlogs (#channel)            | 1 seconds  |
 | **setprefix**       | Set the server prefix!                          | setprefix [prefix]               | 3 seconds  |
 | **setreports**      | Set the reports channel!                        | setreports (#channel)            | 3 seconds  |
 | **setsuggests**     | Set the suggestions channel!                    | setsuggests (#channel)           | 3 seconds  |
 | **slowmode**        | Set a channel cooldown                          | slowmode [#channel] (time)       | 3 seconds  |
-| **welcome**         | Toggle welcome messages!                        | welcome                          | 3 seconds  |
+| **welcome**         | Toggle welcome messages!                        | welcome                          | 1 seconds  |
 
 ### Economy (15 commands)
 

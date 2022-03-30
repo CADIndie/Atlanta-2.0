@@ -14,7 +14,7 @@ class Welcome extends Command {
 			botPermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
 			nsfw: false,
 			ownerOnly: false,
-			cooldown: 3000
+			cooldown: 500
 		});
 	}
 
@@ -60,7 +60,7 @@ class Welcome extends Command {
 			const collector = message.channel.createMessageCollector(
 				m => m.author.id === message.author.id,
 				{
-					time: 120000 // 2 minutes
+					time: 100000 // 2 minutes
 				}
 			);
 

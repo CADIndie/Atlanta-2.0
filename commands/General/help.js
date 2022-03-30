@@ -40,13 +40,13 @@ class Help extends Command {
 			const usage = message.translate(`${cmd.help.category.toLowerCase()}/${cmd.help.name}:USAGE`, {
 				prefix: message.guild
 					? data.guild.prefix
-					: ""
+					: "`"
 			}
 			);
 			const examples = message.translate(`${cmd.help.category.toLowerCase()}/${cmd.help.name}:EXAMPLES`, {
 				prefix: message.guild
 					? data.guild.prefix
-					: ""
+					: "`"
 			}
 			);
 
@@ -56,7 +56,7 @@ class Help extends Command {
 					message.translate("general/help:CMD_TITLE", {
 						prefix: message.guild
 							? data.guild.prefix
-							: "",
+							: "`",
 						cmd: cmd.help.name
 					})
 				)
@@ -85,6 +85,7 @@ class Help extends Command {
 				.setFooter(this.client.config.embed.footer);
 
 			// and send the embed in the current channel
+			console.log("b")
 			return message.channel.send({ embeds: [groupEmbed] });
 		}
 
@@ -106,7 +107,7 @@ class Help extends Command {
 			.setDescription(message.translate("general/help:INFO", {
 				prefix: message.guild
 					? data.guild.prefix
-					: ""
+					: "`"
 			}))
 			.setColor(data.config.embed.color)
 			.setFooter(data.config.embed.footer);
@@ -116,22 +117,23 @@ class Help extends Command {
 		});
 		if(message.guild){
 			if(data.guild.customCommands.length > 0){
-				embed.addField(emojis.categories.custom+" "+message.guild.name+" | "+message.translate("general/help:CUSTOM_COMMANDS")+" - ("+data.guild.customCommands.length+")", data.guild.customCommands.map((cmd) => "`"+cmd.name+"`").join(", "));
+				embed.addField(emojis.categories.custom+"`"+message.guild.name+" | "+message.translate("general/help:CUSTOM_COMMANDS")+" - ("+data.guild.customCommands.length+")", data.guild.customCommands.map((cmd) => "`"+cmd.name+"`").join(", "));
 			}
 		}
         
 		embed.addField("\u200B", message.translate("misc:STATS_FOOTER", {
-			donateLink: "https://patreon.com/Androz2091",
-			dashboardLink: "https://dashboard.atlanta-bot.fr",
+			donateLink: "https://comingsoon.com",
+			dashboardLink: "https://dashboard.seambot.tk",
 			inviteLink: await this.client.generateInvite({
 				permissions: [Discord.Permissions.FLAGS.ADMINISTRATOR]
 			}),
-			githubLink: "https://github.com/Androz2091",
-			supportLink: "https://discord.gg/NPkySYKMkN"
+			githubLink: "https://github.com/CADIndie/SeamBot",
+			supportLink: "https://discord.gg/7XWQWQW"
 		}));
 		embed.setAuthor(message.translate("general/help:TITLE", {
 			name: this.client.user.username
 		}), this.client.user.displayAvatarURL({ size: 512, dynamic: true, format: "png" }));
+		console.log("a");
 		return message.channel.send({ embeds: [embed] });
 	}
 
