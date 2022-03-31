@@ -60,7 +60,7 @@ class Achievements extends Command {
 			percent: Math.round(100 * (data.userData.achievements.invite.progress.now/data.userData.achievements.invite.progress.total))
 		}));
 
-		message.channel.send({ embeds: [embed] });
+		return message.channel.send(embed);
 
 	}
 

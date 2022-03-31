@@ -40,7 +40,7 @@ class ServersList extends Command {
 			.setTitle(`${message.translate("common:PAGE")}: ${page}/${Math.ceil(this.client.guilds.cache.size/10)}`)
 			.setDescription(description);
 
-		const msg = await message.channel.send({ embeds: [embed] });
+		const msg = await message.channel.send(embed);
         
 		await msg.react("⬅");
 		await msg.react("➡");

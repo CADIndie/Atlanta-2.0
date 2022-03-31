@@ -96,7 +96,7 @@ class Userinfo extends Command {
 			}
 		}
 
-		message.channel.send({ embeds: [embed] });
+		return message.channel.send(embed);
 	}
 
 }

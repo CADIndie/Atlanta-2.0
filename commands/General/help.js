@@ -133,7 +133,6 @@ class Help extends Command {
 		embed.setAuthor(message.translate("general/help:TITLE", {
 			name: this.client.user.username
 		}), this.client.user.displayAvatarURL({ size: 512, dynamic: true, format: "png" }));
-		console.log(embed)
 		return message.channel.send(embed);
 	}
 

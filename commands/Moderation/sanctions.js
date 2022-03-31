@@ -35,14 +35,14 @@ class Sanctions extends Command {
 			embed.setDescription(message.translate("moderation/sanctions:NO_SANCTION", {
 				username: user.tag
 			}));
-			return message.channel.send({ embeds: [embed] });
+			return message.channel.send(embed);
 		} else {
 			memberData.sanctions.forEach((s) => {
 				embed.addField(s.type+" | #"+s.case, `${message.translate("common:MODERATOR")}: <@${s.moderator}>\n${message.translate("common:REASON")}: ${s.reason}`, true);
 			});
 		}
 
-		message.channel.send({ embeds: [embed] });
+		return message.channel.send(embed);
 	}
 
 }

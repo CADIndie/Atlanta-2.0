@@ -43,7 +43,7 @@ class Hastebin extends Command {
 				.setAuthor(message.translate("general/hastebin:SUCCESS"))
 				.setDescription(url)
 				.setColor(data.config.embed.color);
-			message.channel.send({ embeds: [embed] });
+			return message.channel.send(embed);
 		} catch(e){
 			message.error("misc:ERR_OCCURRED");
 		}
