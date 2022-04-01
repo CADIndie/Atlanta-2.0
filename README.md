@@ -1,4 +1,4 @@
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Atlanta" src="https://i.goopics.net/lEENx.png">  
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Atlanta" src="https://cdn.discordapp.com/attachments/959083632998355021/959305294641524756/68747470733a2f2f692e676f6f706963732e6e65742f6c45454e782e706e67.png">  
 
 # Atlanta 2.0
 
