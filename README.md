@@ -8,9 +8,7 @@
 [![](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/androz2091)
 [![](https://www.codefactor.io/repository/github/Androz2091/AtlantaBot/badge)](https://www.codefactor.io/repository/github/Androz2091/AtlantaBot)
 
-> This bot is used by more than 130,000 Discord users and more than 800 servers.
-
-Atlanta is a open source Discord bot coded in JavaScript with [Discord.js](https://discord.js.org) and [Mongoose](https://mongoosejs.com/docs/api.html) by [Androz2091](https://github.com/Androz2091).  
+Atlanta is a open source Discord bot coded in JavaScript with [Discord.js](https://discord.js.org) and [Mongoose](https://mongoosejs.com/docs/api.html) by [Androz2091](https://github.com/Androz2091). I have decided to update it and maintain it as the original is no longer being updated nor is it live.
 Feel free to add a star ⭐ to the repository to promote the project!
 
 ## Features
@@ -38,7 +36,7 @@ Atlanta has a lot of features, with **7 main categories**:
 *   🖨️ **General**: `minimize`, `setafk`, `translate`, `remindme`, `hastebin`, `fortnite`, `minecraft` and **10** more! 
 *   👑 **Owner**: `eval`, `getinvite`, `servers-list` and **2** more!
 
-[See the full commands list](https://www.atlanta-bot.fr/commands)
+[See the full commands list](https://www.seambot.tk/commands)
 
 ### A powerful Dashboard
 
@@ -63,21 +61,21 @@ If you don't want to edit the code of the bot, a permanent online version is ava
 ### Customized version
 
 If you want to edit the bot's code and host it on your machine, it's possible!  
-You must follow the [installation guide](https://www.atlanta-bot.fr/installation/) to properly install it! Don't worry, it's fast and simple if you follow the guide!
+You must follow the [installation guide](https://www.seambot.tk/installation/) to properly install it! Don't worry, it's fast and simple if you follow the guide!
 
 ## Links
 
-*   [Commands List](https://www.atlanta-bot.fr/commands)
-*   [Installation Guide](https://www.atlanta-bot.fr/installation)
-*   [F.A.Q](https://www.atlanta-bot.fr/faq/)
+*   [Commands List](https://www.seambot.tk/commands)
+*   [Installation Guide](https://www.seambot.tk/installation)
+*   [F.A.Q](https://www.seambot.tk/faq/)
 *   [Discord](https://discord.gg/NPkySYKMkN)
-*   [Twitter](https://twitter.com/AtlantaBot)
-*   [Github](https://github.com/Androz2091/AtlantaBot/)
-*   [Dashboard](https://dashboard.atlanta-bot.fr)
+*   [Twitter](https://twitter.com/CADIndie)
+*   [Github](https://github.com/CADIndie/Atlanta-2.0/)
+*   [Dashboard](https://dashboard.seambot.tk)
 
 ## Contributing
 
-Before **creating an issue**, please ensure that it hasn't already been reported/suggested, and double-check the [F.A.Q](https://www.atlanta-bot.fr/faq).   
+Before **creating an issue**, please ensure that it hasn't already been reported/suggested, and double-check the [F.A.Q](https://www.seambot.tk/faq).   
 And if you have a question, please ask it in the [Discord server](https://discord.gg/NPkySYKMkN) instead of opening an issue.
 If you wish to contribute to the Atlanta codebase or documentation, feel free to fork the repository and submit a pull request!
 
