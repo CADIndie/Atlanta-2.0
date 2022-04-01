@@ -11,9 +11,9 @@ const config = require("config");
 // if(config.apiKeys.sentryDSN){
 // 	try {
 // 		Sentry.init({ dsn: config.apiKeys.sentryDSN });
-// 	} catch (e) {
+//	} catch (e) {
 // 		console.log(e);
-// 		console.log(chalk.yellow("Looks like your Sentry DSN key is invalid. If you do not intend to use Sentry, please remove the key from the configuration file."));
+//		console.log(chalk.yellow("Looks like your Sentry DSN key is invalid. If you do not intend to use Sentry, please remove the key from the configuration file."));
 // 	}
 // }
 
@@ -76,3 +76,36 @@ client.on("disconnect", () => client.logger.log("Bot is disconnecting...", "warn
 process.on("unhandledRejection", (err) => {
 	console.error(err);
 });
+
+
+//const Sentry = require("@sentry/node");
+// or use es6 import statements
+// import * as Sentry from '@sentry/node';
+
+const Tracing = require("@sentry/tracing");
+// or use es6 import statements
+// import * as Tracing from '@sentry/tracing';
+
+Sentry.init({
+  dsn: "https://044dcb5f92964120865b4f2a4eacc25e@o1184821.ingest.sentry.io/6303116",
+
+  // Set tracesSampleRate to 1.0 to capture 100%
+  // of transactions for performance monitoring.
+  // We recommend adjusting this value in production
+  tracesSampleRate: 1.0,
+});
+
+const transaction = Sentry.startTransaction({
+  op: "test",
+  name: "My First Test Transaction",
+});
+
+setTimeout(() => {
+  try {
+    foo();
+  } catch (e) {
+    Sentry.captureException(e);
+  } finally {
+    transaction.finish();
+  }
+}, 99);

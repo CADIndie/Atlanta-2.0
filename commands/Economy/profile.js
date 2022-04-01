@@ -54,10 +54,8 @@ class Profile extends Command {
 		});
 
 		const profileEmbed = new Discord.MessageEmbed()
-			.setAuthor(message.translate("economy/profile:TITLE", {
-				username: member.user.tag
-			}), member.user.displayAvatarURL({ size: 512, dynamic: true, format: "png" }))
-			.attachFiles([{ attachment: await userData.getAchievements(), name: "achievements.png" }])
+			.setAuthor(message.translate({ profile:	"TITLE", username: member.user.tag}), member.user.displayAvatarURL({ size: 512, dynamic: true, format: "png" }))
+			.attachFiles([{ files: await userData.getAchievements(), name: "achievements.png" }])
 			.setImage("attachment://achievements.png")
 			.setDescription(userData.bio ? userData.bio : message.translate("economy/profile:NO_BIO"))
 			.addField(message.translate("economy/profile:CASH"), message.translate("economy/profile:MONEY", {
