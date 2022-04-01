@@ -51,7 +51,7 @@ class Lyrics extends Command {
 			}
 
 			embed.setDescription(lyrics);
-			return message.channel.send(embed);
+			return message.channel.send({ embeds: [embed] });
 
 		} catch(e){
 			console.log(e);

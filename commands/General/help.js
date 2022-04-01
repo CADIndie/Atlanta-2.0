@@ -123,17 +123,17 @@ class Help extends Command {
         
 		embed.addField("\u200B", message.translate("misc:STATS_FOOTER", {
 			donateLink: "https://comingsoon.com",
-			dashboardLink: "https://dashboard.seambot.tk",
+			dashboardLink: "https://dashboard.atlanta2.tk",
 			inviteLink: await this.client.generateInvite({
-				permissions: [Discord.Permissions.FLAGS.ADMINISTRATOR]
+				scopes: ["bot", "applications.commands"]
 			}),
-			githubLink: "https://github.com/CADIndie/SeamBot",
+			githubLink: "https://github.com/CADIndie/Atlanta-2.0",
 			supportLink: "https://discord.gg/7XWQWQW"
 		}));
 		embed.setAuthor(message.translate("general/help:TITLE", {
 			name: this.client.user.username
 		}), this.client.user.displayAvatarURL({ size: 512, dynamic: true, format: "png" }));
-		return message.channel.send(embed);
+		return message.channel.send({ embeds: [embed] });
 	}
 
 }

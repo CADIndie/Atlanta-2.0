@@ -45,7 +45,7 @@ class Clear extends Command {
 		const user = message.mentions.users.first();
 
 		let messages = await message.channel.messages.fetch({limit:100});
-		messages = messages.array();
+		messages = messages.toJSON();
 		if(user){
 			messages = messages.filter((m) => m.author.id === user.id);
 		}

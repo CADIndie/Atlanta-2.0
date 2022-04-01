@@ -47,7 +47,7 @@ class Profile extends Command {
 
 		const commonsGuilds = client.guilds.cache.filter((g) => g.members.cache.get(member.id));
 		let globalMoney = 0;
-		await asyncForEach(commonsGuilds.array(), async (guild) => {
+		await asyncForEach(commonsGuilds.toJSON(), async (guild) => {
 			const memberData = await client.findOrCreateMember({ id: member.id, guildID: guild.id });
 			globalMoney+=memberData.money;
 			globalMoney+=memberData.bankSold;

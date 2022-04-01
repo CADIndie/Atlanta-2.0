@@ -57,7 +57,7 @@ class Serverinfo extends Command {
 			.setColor(data.config.embed.color)
 			.setFooter(data.config.embed.footer);
 
-		return message.channel.send(embed);
+		return message.channel.send({ embeds: [embed] });
 	}
 
 }

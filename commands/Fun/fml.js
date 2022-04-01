@@ -30,7 +30,7 @@ class Fml extends Command {
 			.setFooter(message.translate("fun/fml:FOOTER"))
 			.setColor(this.client.config.embed.color);
 
-		return message.channel.send(embed);
+		return message.channel.send({ embeds: [embed] });
 
 	}
 

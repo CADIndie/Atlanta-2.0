@@ -38,7 +38,7 @@ class Credits extends Command {
 
 		const commonsGuilds = this.client.guilds.cache.filter((g) => g.members.cache.get(user.id));
 		let globalMoney = 0;
-		await asyncForEach(commonsGuilds.array(), async (guild) => {
+		await asyncForEach(commonsGuilds.toJSON(), async (guild) => {
 			const memberData = await this.client.findOrCreateMember({ id: user.id, guildID: guild.id });
 			globalMoney+=memberData.money;
 			globalMoney+=memberData.bankSold;
@@ -59,7 +59,7 @@ class Credits extends Command {
 			}), true)
 			.setColor(this.client.config.embed.color)
 			.setFooter(this.client.config.embed.footer);
-		return message.channel.send(embed);
+		return message.channel.send({ embeds: [embed] });
 	}
 
 }

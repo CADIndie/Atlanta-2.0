@@ -32,7 +32,7 @@ class Joke extends Command {
 			.setFooter(message.translate("fun/joke:FOOTER"))
 			.setColor(this.client.config.embed.color);
 
-		return message.channel.send(embed);
+		return message.channel.send({ embeds: [embed] });
 
 	}
 

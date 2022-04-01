@@ -24,7 +24,7 @@ class Avatar extends Command {
 		const avatarURL = user.displayAvatarURL({ size: 512, dynamic: true, format: 'png' });
 		if(message.content.includes("-v")) message.channel.send("<"+avatarURL+">");
 		const attachment = new Discord.MessageAttachment(avatarURL, `avatar.${avatarURL.split(".").pop().split("?")[0]}`);
-		message.channel.send(attachment);
+		message.channel.send({ files: [attachment] });;
 
 	}
 

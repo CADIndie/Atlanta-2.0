@@ -56,7 +56,7 @@ class Lovecalc extends Command {
 			.setColor(this.client.config.embed.color)
 			.setFooter(this.client.config.embed.footer);
 
-		return message.channel.send(embed);
+		return message.channel.send({ embeds: [embed] });
         
 	}
 

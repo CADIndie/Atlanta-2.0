@@ -28,7 +28,7 @@ class Someone extends Command {
 			.addField(message.translate("common:ID"), member.user.id, true)
 			.setThumbnail(member.user.displayAvatarURL({ size: 512, dynamic: true, format: 'png' }))
 			.setColor(data.config.embed.color);
-		return message.channel.send(embed);
+		return message.channel.send({ embeds: [embed] });
         
 	}
 

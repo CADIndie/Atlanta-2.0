@@ -50,7 +50,7 @@ class Np extends Command {
 			.setFooter(data.config.embed.footer);
         
 		// Send the embed in the current channel
-		return message.channel.send(embed);
+		return message.channel.send({ embeds: [embed] });
         
 	}
 

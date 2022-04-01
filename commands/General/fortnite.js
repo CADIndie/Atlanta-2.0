@@ -76,7 +76,7 @@ class Fortnite extends Command {
 				.setImage("attachment://fortnite-stats-image.png")
 				.setColor(data.config.embed.color)
 				.setFooter(data.config.embed.footer);
-		return message.channel.send(embed);
+		return message.channel.send({ embeds: [embed] });
 		m.delete();
 	}
 }
