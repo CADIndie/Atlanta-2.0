@@ -1,5 +1,5 @@
 # Commands  
-Here's the list of Atlanta commands. This one contains more than **120 commands** in **8 categories**!  
+Here's the list of Atlanta commands. This one contains more than **110 commands** in **8 categories**!  
 
 #### Contents of the table  
 **Name**: The name of the command  
@@ -39,52 +39,52 @@ Here's the list of Atlanta commands. This one contains more than **120 commands*
 | **wasted**          | Generates a "wasted" image using Nekobot API            | wasted (@member)                    | 5 seconds |
 | **youtube-comment** | Generates a "youtube-comment" image                     | youtube-comment (@member) [text]    | 5 seconds |
 
-### General (22 commands)
+### General (20 commands)
 
-| Name             | Description                                                 | Usage                          | Cooldown  |
-| ---------------- | ----------------------------------------------------------- | ------------------------------ | --------- |
-| **github**       | Shows Atlanta's Github repository information!              | github                         | 5 seconds |
-| **hastebin**     | Upload your text on hastebin!                               | hastebin [text]                | 5 seconds |
-| **help**         | Show commands list or specific command help.                | help (command)                 | 5 seconds |
-| **invitations**  | Shows the number of people you have invited to the server!  | invitations (@member)          | 3 seconds |
-| **invite**       | Shows Atlanta links!                                        | invite (copy)                  | 5 seconds |
-| **minecraft**    | Shows information about a Minecraft server!                 | minecraft [ip]                 | 3 seconds |
-| **permissions**  | Displays the member's permissions in the channel            | permissions (@member)          | 1 seconds |
-| **ping**         | Show bot's ping                                             | ping                           | 1 seconds |
-| **quote**        | Quote a message in the channel!                             | quote [messageID] [channel]    | 5 seconds |
-| **remindme**     | Add a new personal reminder                                 | remindme [message]             | 3 seconds |
-| **report**       | Send your report to the channel defined for them!           | report [@user] [reason]        | 5 seconds |
-| **serverinfo**   | Shows information about the server!                         | serverinfo [ID/Name]           | 3 seconds |
-| **setafk**       | Become AFK (members who mention you will receive a message) | setafk [reason]                | 3 seconds |
-| **shorturl**     | Make your links shorter!                                    | shorturl [url]                 | 5 seconds |
-| **someone**      | Pick a random member on the server!                         | someone                        | 1 seconds |
-| **staff**        | Shows the server staff members list!                        | staff                          | 3 seconds |
-| **stats**        | Shows the bot stats!                                        | stats                          | 3 seconds |
-| **suggest**      | Send your suggestion to the defined channel!                | suggest [message]              | 5 seconds |
-| **translate**    | Translate your text!                                        | translate [language] [message] | 8 seconds |
-| **userinfo**     | Shows user information!                                     | userinfo (@user/userID)        | 5 seconds |
+| Name            | Description                                                 | Usage                          | Cooldown  |
+| --------------- | ----------------------------------------------------------- | ------------------------------ | --------- |
+| **github**      | Shows Atlanta's Github repository information!              | github                         | 5 seconds |
+| **hastebin**    | Upload your text on hastebin!                               | hastebin [text]                | 5 seconds |
+| **help**        | Show commands list or specific command help.                | help (command)                 | 5 seconds |
+| **invitations** | Shows the number of people you have invited to the server!  | invitations (@member)          | 3 seconds |
+| **invite**      | Shows Atlanta links!                                        | invite (copy)                  | 5 seconds |
+| **minecraft**   | Shows information about a Minecraft server!                 | minecraft [ip]                 | 3 seconds |
+| **permissions** | Displays the member's permissions in the channel            | permissions (@member)          | 1 seconds |
+| **ping**        | Show bot's ping                                             | ping                           | 1 seconds |
+| **quote**       | Quote a message in the channel!                             | quote [messageID] [channel]    | 5 seconds |
+| **remindme**    | Add a new personal reminder                                 | remindme [message]             | 3 seconds |
+| **report**      | Send your report to the channel defined for them!           | report [@user] [reason]        | 5 seconds |
+| **serverinfo**  | Shows information about the server!                         | serverinfo [ID/Name]           | 3 seconds |
+| **setafk**      | Become AFK (members who mention you will receive a message) | setafk [reason]                | 3 seconds |
+| **shorturl**    | Make your links shorter!                                    | shorturl [url]                 | 5 seconds |
+| **someone**     | Pick a random member on the server!                         | someone                        | 1 seconds |
+| **staff**       | Shows the server staff members list!                        | staff                          | 3 seconds |
+| **stats**       | Shows the bot stats!                                        | stats                          | 3 seconds |
+| **suggest**     | Send your suggestion to the defined channel!                | suggest [message]              | 5 seconds |
+| **translate**   | Translate your text!                                        | translate [language] [message] | 8 seconds |
+| **userinfo**    | Shows user information!                                     | userinfo (@user/userID)        | 5 seconds |
 
-### Administration (18 commands)
+### Administration (17 commands)
 
-| Name                | Description                                     | Usage                            | Cooldown   |
-| ------------------- | ----------------------------------------------- | -------------------------------- | ---------- |
-| **addcommand**      | Add a custom command!                           | addcommand [name] [answer]       | 3 seconds  |
-| **addemoji**        | Add an emoji to the server!                     | addemoji [image-url] [name]      | 5 seconds  |
-| **automod**         | Toggle Discord invites automatic deletion       | automod [on/off] (#channel)      | 5 seconds  |
-| **autorole**        | Toggle autorole on the server!                  | autorole [on/off] (role)         | 5 seconds  |
-| **backup**          | Manage your server backups in an efficient way! | backup [create/load/infos]       | 30 seconds |
-| **configuration**   | Shows the server configuration!                 | configuration                    | 3 seconds  |
-| **delcommand**      | Remove a custom command!                        | delcommand [name-of-the-command] | 3 seconds  |
-| **deletemod**       | Toggle moderation commands auto deletion!       | deletemod [on/off]               | 3 seconds  |
-| **goodbye**         | Toggle goodbye messages!                        | goodbye                          | 3 seconds  |
-| **ignore**          | Toggle commands in a channel                    | ignore [channel]                 | 3 seconds  |
-| **setlang**         | Change the server language!                     | setlang [language]               | 3 seconds  |
-| **setmodlogs**      | Set the moderation logs channel!                | setmodlogs (#channel)            | 1 seconds  |
-| **setprefix**       | Set the server prefix!                          | setprefix [prefix]               | 3 seconds  |
-| **setreports**      | Set the reports channel!                        | setreports (#channel)            | 3 seconds  |
-| **setsuggests**     | Set the suggestions channel!                    | setsuggests (#channel)           | 3 seconds  |
-| **slowmode**        | Set a channel cooldown                          | slowmode [#channel] (time)       | 3 seconds  |
-| **welcome**         | Toggle welcome messages!                        | welcome                          | 1 seconds  |
+| Name              | Description                                     | Usage                            | Cooldown   |
+| ----------------- | ----------------------------------------------- | -------------------------------- | ---------- |
+| **addcommand**    | Add a custom command!                           | addcommand [name] [answer]       | 3 seconds  |
+| **addemoji**      | Add an emoji to the server!                     | addemoji [image-url] [name]      | 5 seconds  |
+| **automod**       | Toggle Discord invites automatic deletion       | automod [on/off] (#channel)      | 5 seconds  |
+| **autorole**      | Toggle autorole on the server!                  | autorole [on/off] (role)         | 5 seconds  |
+| **backup**        | Manage your server backups in an efficient way! | backup [create/load/infos]       | 30 seconds |
+| **configuration** | Shows the server configuration!                 | configuration                    | 3 seconds  |
+| **delcommand**    | Remove a custom command!                        | delcommand [name-of-the-command] | 3 seconds  |
+| **deletemod**     | Toggle moderation commands auto deletion!       | deletemod [on/off]               | 3 seconds  |
+| **goodbye**       | Toggle goodbye messages!                        | goodbye                          | 3 seconds  |
+| **ignore**        | Toggle commands in a channel                    | ignore [channel]                 | 3 seconds  |
+| **setlang**       | Change the server language!                     | setlang [language]               | 3 seconds  |
+| **setmodlogs**    | Set the moderation logs channel!                | setmodlogs (#channel)            | 1 seconds  |
+| **setprefix**     | Set the server prefix!                          | setprefix [prefix]               | 3 seconds  |
+| **setreports**    | Set the reports channel!                        | setreports (#channel)            | 3 seconds  |
+| **setsuggests**   | Set the suggestions channel!                    | setsuggests (#channel)           | 3 seconds  |
+| **slowmode**      | Set a channel cooldown                          | slowmode [#channel] (time)       | 3 seconds  |
+| **welcome**       | Toggle welcome messages!                        | welcome                          | 1 seconds  |
 
 ### Economy (15 commands)
 
