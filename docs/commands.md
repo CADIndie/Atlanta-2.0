@@ -43,8 +43,6 @@ Here's the list of Atlanta commands. This one contains more than **120 commands*
 
 | Name             | Description                                                 | Usage                          | Cooldown  |
 | ---------------- | ----------------------------------------------------------- | ------------------------------ | --------- |
-| **fortnite**     | Shows a player's Fortnite stats!                            | fortnite [psn/xbl/pc] [pseudo] | 1 seconds |
-| **fortniteshop** | Shows the daily fortnite items shop!                        | fortniteshop                   | 1 seconds |
 | **github**       | Shows Atlanta's Github repository information!              | github                         | 5 seconds |
 | **hastebin**     | Upload your text on hastebin!                               | hastebin [text]                | 5 seconds |
 | **help**         | Show commands list or specific command help.                | help (command)                 | 5 seconds |
@@ -80,7 +78,6 @@ Here's the list of Atlanta commands. This one contains more than **120 commands*
 | **deletemod**       | Toggle moderation commands auto deletion!       | deletemod [on/off]               | 3 seconds  |
 | **goodbye**         | Toggle goodbye messages!                        | goodbye                          | 3 seconds  |
 | **ignore**          | Toggle commands in a channel                    | ignore [channel]                 | 3 seconds  |
-| **setfortniteshop** | Set the daily Fortnite shop channel!            | setfortniteshop (#channel)       | 5 seconds  |
 | **setlang**         | Change the server language!                     | setlang [language]               | 3 seconds  |
 | **setmodlogs**      | Set the moderation logs channel!                | setmodlogs (#channel)            | 1 seconds  |
 | **setprefix**       | Set the server prefix!                          | setprefix [prefix]               | 3 seconds  |

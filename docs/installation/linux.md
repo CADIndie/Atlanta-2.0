@@ -12,8 +12,6 @@ Obtain the necessary API keys:
 
 *   [Blague.xyz](https://blague.xyz/login) API key is used for the `joke` command
 *   [Amethyste](https://api.amethyste.moe/register) API key is used for some images command
-*   [FortniteTracker](https://fortnitetracker.com/site-api) API key is used for the fortnite stats command
-*   [FortniteFNBR](https://fnbr.co/oauth/discord) API key is used for the fortnite shop image
 *   [Discordbots](https://discordbots.org/api/docs#mybots) API key is used for stats posting and votes rewards
 
 {% hint style="info" %}
