@@ -45,6 +45,17 @@ module.exports = {
 		// SENTRY: https://sentry.io (this is not required and not recommended - you can delete the field)
 		sentryDSN: "XXXXXXXXXXX"
 	},
+	/* Counter Channel Configs (will be command soon) */
+	counterIDs: {
+		/* How long it takes to update channel names */
+		   updateTime: "",
+		/* IDs for Voice Channels to update */
+		   membersID: "",
+		   rolesID: "",
+		      
+	
+	},
+	
 	/* The others utils links */
 	others: {
 		github: "https://github.com/Androz2091", // Founder's github account
