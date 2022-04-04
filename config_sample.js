@@ -21,7 +21,7 @@ module.exports = {
 	/* For the embeds (embeded messages) */
 	embed: {
 		color: "#0091fc", // The default color for the embeds
-		footer: "Atlanta | Open Source" // And the default footer for the embeds
+		footer: "Atlanta 2.0 | Open Source" // And the default footer for the embeds
 	},
 	/* Bot's owner informations */
 	owner: {
