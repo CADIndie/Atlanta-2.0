@@ -1,4 +1,7 @@
-const Command = require("../../classes/BaseCommand.js");
+// module.exports = {}
+
+const Command = require("../../base/Command.js");
+const actions = ['give,' 'remove', 'has']
 
 class AddRole extends Command {
 
@@ -20,4 +23,7 @@ class AddRole extends Command {
     async run (message, args) {
         
     }
+
+
+
 }
